@@ -9,7 +9,7 @@ const StyledNavbar = () => {
         <div className="nav-header">
           <div>
             {' '}
-            <FaMediumM></FaMediumM>
+            <FaMediumM style={{ fontSize: '1.1rem' }}></FaMediumM>
             <FaOpera></FaOpera>
           </div>
 
@@ -23,6 +23,22 @@ const StyledNavbar = () => {
             }
           >
             About
+          </NavLink>
+          <NavLink
+            to="/portfolio"
+            className={({ isActive }) =>
+              isActive ? 'nav-links link active' : 'nav-links link'
+            }
+          >
+            Portfolio
+          </NavLink>
+          <NavLink
+            to="/contact"
+            className={({ isActive }) =>
+              isActive ? 'nav-links link active' : 'nav-links link'
+            }
+          >
+            Contact
           </NavLink>
         </div>
       </div>
