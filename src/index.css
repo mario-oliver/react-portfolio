@@ -352,19 +352,13 @@ Hero
 ===============
 */
 
-.quote-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 2rem;
-}
-
 .hero {
   min-height: 70vh;
-  background: linear-gradient(var(--clr-primary-100), var(--clr-primary-900));
   display: flex;
   justify-content: center;
   align-items: center;
+  background: center/cover no-repeat;
+  background-image: url('../images/abstract.svg');
 }
 
 .hero-banner {
@@ -394,17 +388,24 @@ Hero
   color: var(--clr-white);
   border-color: var(--clr-white);
 }
-@media screen and (min-width: 768px) {
-  .hero {
+@media screen and (min-width: 200px) {
+  /* .hero {
     background: linear-gradient(var(--primary-100), var(--primary-900)),
       url('./images/main.jpeg') center/cover no-repeat;
-  }
+  } */
   .hero-banner {
     padding: 0;
   }
   .hero-banner p {
     max-width: 45rem;
   }
+}
+
+.quote-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
 }
 
 .hero-icon {
