@@ -426,7 +426,7 @@ Hero
   top: 0;
   left: 0;
   width: 100%;
-  background: var(--clr-white);
+  background: var(--white);
   box-shadow: var(--dark-shadow);
   z-index: 2;
   height: 4rem;
@@ -625,21 +625,9 @@ footer {
   text-align: center;
 }
 
-footer p {
-  margin: 0;
-}
-
 .small {
   padding: 1px;
+  margin: 0.24rem;
   color: var(--grey-700);
   font-size: 0.7rem;
-}
-
-.footer-container {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.cover-image {
-  justify-content: center;
 }

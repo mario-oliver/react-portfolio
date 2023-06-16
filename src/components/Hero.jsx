@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section className="hero">
       <div className="hero-banner">
-        <h1 className="title">Mario Oliver</h1>
+        <h1 className="title">PLACEHOLDER</h1>
         <div className="quote-icons">
           <FaQuoteLeft className="hero-icon"></FaQuoteLeft>
           <p className="text">
